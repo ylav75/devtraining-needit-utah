@@ -120,6 +120,121 @@
                 "type": "EVENT"
             }
         ]
+    },
+    {
+        "eventMappingId": "wbBZhPOeBkOdjjWMMujjhKyiilm",
+        "isConfiguration": null,
+        "offRowStorageId": null,
+        "sourceEventApiName": "x_58872_needit.MODAL_SELECTED_RELAY_62b3b972837c32102a29f3dfeeaad3b2",
+        "sourceEventCorrelationId": null,
+        "sourceEventDefinition": {
+            "apiName": "x_58872_needit.MODAL_SELECTED_RELAY_62b3b972837c32102a29f3dfeeaad3b2",
+            "id": null,
+            "type": "UXEVENT"
+        },
+        "sourceEventSysId": null,
+        "targets": [
+            {
+                "broker": null,
+                "clientScript": null,
+                "clientTransformScript": null,
+                "clientTransformScriptUxValue": null,
+                "conditional": null,
+                "declarativeAction": null,
+                "event": {
+                    "apiName": "sn_canvas_core.MODAL_SELECTED",
+                    "payload": {
+                        "container": {
+                            "bare": {
+                                "binding": {
+                                    "address": [
+                                        "bare"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "displayOptions": {
+                                "binding": {
+                                    "address": [
+                                        "displayOptions"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "headerLabel": {
+                                "binding": {
+                                    "address": [
+                                        "headerLabel"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "modalId": {
+                                "binding": {
+                                    "address": [
+                                        "modalId"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "preserveState": {
+                                "binding": {
+                                    "address": [
+                                        "preserveState"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "showModal": {
+                                "binding": {
+                                    "address": [
+                                        "showModal"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportElementId": {
+                                "binding": {
+                                    "address": [
+                                        "viewportElementId"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportFields": {
+                                "binding": {
+                                    "address": [
+                                        "viewportFields"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportParams": {
+                                "binding": {
+                                    "address": [
+                                        "viewportParams"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            },
+                            "viewportRoute": {
+                                "binding": {
+                                    "address": [
+                                        "viewportRoute"
+                                    ]
+                                },
+                                "type": "EVENT_PAYLOAD_BINDING"
+                            }
+                        },
+                        "type": "MAP_CONTAINER"
+                    },
+                    "sysId": "882eed4091382d3a41f1bb3f382ae089"
+                },
+                "operation": null,
+                "targetId": "wFcBQPfyCUTjjjjaUAzeggjjseeddG",
+                "type": "EVENT"
+            }
+        ]
     }
 ]</event_mappings>
         <macroponent display_value="NeedIt Admin home">62b3b972837c32102a29f3dfeeaad3b2</macroponent>
@@ -166,7 +281,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>eeb3b972837c32102a29f3dfeeaad3ba</sys_id>
-        <sys_mod_count>66</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_name>NeedIt Admin home</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -174,7 +289,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ux_screen_eeb3b972837c32102a29f3dfeeaad3ba</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-11-24 09:47:25</sys_updated_on>
+        <sys_updated_on>2025-11-24 13:00:24</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=eeb3b972837c32102a29f3dfeeaad3ba"/>
 </record_update>
